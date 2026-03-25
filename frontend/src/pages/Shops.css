@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+/* LEFT */
+.sidebar {
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.shop-btn {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* RIGHT */
+.content {
+  flex: 1;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #aaa;
+  padding: 10px;
+  text-align: center;
+}
+
+.image {
+  height: 100px;
+  background: #ddd;
+  margin-bottom: 10px;
+}

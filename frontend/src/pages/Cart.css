@@ -1,0 +1,42 @@
+.cart-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* LEFT FORM */
+.form-section {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.form-section label {
+  display: block;
+  margin-top: 10px;
+}
+
+.form-section input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+/* RIGHT CART */
+.cart-items {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.cart-card {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.cart-image {
+  width: 120px;
+  height: 80px;
+  background: #ddd;
+}
