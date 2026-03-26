@@ -6,7 +6,7 @@ export default function Shops({ addToCart }: any) {
   const [products, setProducts] = useState<any[]>([]);
 
   useEffect(() => {
-    fetch("food-delivery-app-production-4fd2.up.railway.app")
+    fetch("food-delivery-app-production-8d99.up.railway.app")
       .then(res => res.json())
       .then(data => setShops(data));
 
