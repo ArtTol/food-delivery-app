@@ -19,7 +19,7 @@ export default function Cart({ cart }: any) {
       items: cart
     };
 
-    fetch("food-delivery-app-production-4fd2.up.railway.app", {
+    fetch("food-delivery-app-production-8d99.up.railway.app/shops", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
