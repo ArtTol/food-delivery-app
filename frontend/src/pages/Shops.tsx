@@ -6,7 +6,7 @@ export default function Shops({ addToCart }: any) {
   const [products, setProducts] = useState<any[]>([]);
 
   useEffect(() => {
-    fetch("postgres-production-4d48.up.railway.appp")
+    fetch("postgres-production-4d48.up.railway.app")
       .then(res => res.json())
       .then(data => setShops(data));
 
