@@ -35,4 +35,5 @@ This is a full-stack Food Delivery application with two main pages:
    npm start
 
 ##  Live Demo
-(Add your deployed link here)
+backend url: https://food-delivery-app-production-8d99.up.railway.app/
+fronted url: https://food-delivery-app-gd3x.vercel.app/
