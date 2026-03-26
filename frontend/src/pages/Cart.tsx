@@ -24,13 +24,7 @@ export default function Cart({ cart }: any) {
   headers: {
     "Content-Type": "application/json",
   },
-  body: JSON.stringify({
-    name,
-    email,
-    phone,
-    address,
-    items: cart,
-  }),
+  body: JSON.stringify(order)
 });
 
     alert("Order submitted");
