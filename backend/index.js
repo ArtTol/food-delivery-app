@@ -9,11 +9,10 @@ app.use(express.json());
 
 // TEST ROUTE
 const pool = new Pool({
-  user: "postgres",
-  host: "localhost",
-  database: "food_app",
-  password: 70989,
-  port: 5433,
+  connectionString: process.env.DATABASE_URL,
+  ssl: {
+    rejectUnauthorized: false,
+  },
 });
 app.get("/", (req, res) => {
   res.send("Backend is working");
