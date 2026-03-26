@@ -19,13 +19,19 @@ export default function Cart({ cart }: any) {
       items: cart
     };
 
-    fetch("food-delivery-app-production-8d99.up.railway.app/order", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify(order)
-    });
+    fetch("https://food-delivery-app-production-8d99.up.railway.app/order", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify({
+    name,
+    email,
+    phone,
+    address,
+    items: cart,
+  }),
+});
 
     alert("Order submitted");
   };
