@@ -27,7 +27,9 @@ This is a full-stack Food Delivery application with two main pages:
 
 ## Database
 Backend hosted on Railway.
+
 Frontend hosted on Vercel.
+
 The application uses PostgreSQL hosted on Railway.
 
 
