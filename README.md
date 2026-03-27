@@ -29,4 +29,4 @@ This is a full-stack Food Delivery application with two main pages:
 ##  Live Demo
 backend url: https://food-delivery-app-production-8d99.up.railway.app/
 
-fronted url: https://food-delivery-app-gd3x.vercel.app/
+fronted url:https://food-delivery-app-7xck.vercel.app/
