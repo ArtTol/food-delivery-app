@@ -25,14 +25,6 @@ This is a full-stack Food Delivery application with two main pages:
 ✔ Orders saved to database  
 ✔ Two-page navigation (Shops & Cart)  
 
-##  How to Run Locally
-1. Run backend:
-   cd backend
-   node index.js
-
-2. Run frontend:
-   cd frontend
-   npm start
 
 ##  Live Demo
 backend url: https://food-delivery-app-production-8d99.up.railway.app/
